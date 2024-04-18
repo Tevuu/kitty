@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kitty/static/css/main.066fa3d9.css",
+    "main.js": "/kitty/static/js/main.fa1a4c5c.js",
+    "index.html": "/kitty/index.html",
+    "main.066fa3d9.css.map": "/kitty/static/css/main.066fa3d9.css.map",
+    "main.fa1a4c5c.js.map": "/kitty/static/js/main.fa1a4c5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.066fa3d9.css",
+    "static/js/main.fa1a4c5c.js"
+  ]
+}
