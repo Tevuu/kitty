@@ -69,7 +69,7 @@ export const AuthModal = ({ auModal, setAuModal, users, setUsers }) => {
                   <button
                     className="hover:opacity-100 hover:text-pink-400 opacity-40 duration-300"
                     onClick={() => setReg(!reg)}>
-                    Зарегестрировать
+                    Зарегистрироваться
                   </button>
                 </div>
               </>
@@ -95,7 +95,7 @@ export const AuthModal = ({ auModal, setAuModal, users, setUsers }) => {
                 <button
                   className="bg-white w-[250px] h-[39px] rounded-lg duration-500 hover:outline outline-1 outline-pink-200 text-black/50"
                   onClick={() => RegUser(login, password)}>
-                  Зарегестрироваться
+                  Зарегистрироваться
                 </button>
                 <div className="flex flex-col">
                   <div className=" opacity-40">У вас есть аккаунт?</div>
