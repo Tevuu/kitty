@@ -160,7 +160,7 @@ export const Header = ({
                   className="font-light text-2xl hover:bg-neutral-300 px-4 py-2 rounded-xl duration-500  hover:text-pink-400"
                   onClick={() => {
                     setAuModal(!auModal);
-                    setPrModal(!prModal);
+                    setOpen(false);
                   }}>
                   SIGN UP
                 </button>
