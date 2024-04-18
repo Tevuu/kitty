@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Игра</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="start-screen">
+      <div class="logo-group-start">
+        <h1 class="logo">Kitty in Space</h1>
+        <h3>Хеллоу Китти попала в космос?</h3>
+		 <h3>Правила игры:</h3>
+		<h3> - У вас только 1 жизнь, одна ошибка и ты ошибся!</h3>
+		<h3> - Управление кораблем осуществляется через мышь</h3>
+		<h3> - Щит сделан для прикола, поэтому будье осторожней</h3>
+      </div>
+      <div class="button-group-start">
+        <button onclick="startGame()">Начать Игру</button>
+        <button onclick="changeShip()">Изменить скин</button>
+      </div>
+    </div>
+
+    <script>
+      function startGame() {
+        window.location.href = "index.html";
+      }
+
+      function changeShip() {
+        window.location.href = "ship.html";
+      }
+    </script>
+  </body>
+</html>

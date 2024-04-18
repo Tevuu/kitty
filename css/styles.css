@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111; /* Цвет фона */
+
+  color: #fff; /* Цвет текста */
+  font-family: Arial, sans-serif;
+}
+
+.scorer {
+	display: flex;
+	gap: 6px;
+	background-color: #1b1b1b;
+	padding: 50px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	justify-content: center;
+}
+.start-screen {
+  text-align: center;
+  background-color: #1b1b1b;
+  padding: 150px;
+  border-radius: 50px;
+}
+
+h3 {
+  opacity: 30%;
+  height: 60px;
+}
+
+.logo {
+  font-size: 56px;
+  height: 35px;
+  font-family: monospace;
+}
+
+.button-group-start {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+button {
+  font-family: monospace;
+  font-size: 28px;
+  padding: 10px 150px;
+  background-color: #fa94f1; /* Цвет кнопки */
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #fa56ec; /* Изменение цвета при наведении */
+}
+.ship {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.selected {
+  border: 2px solid blue;
+}

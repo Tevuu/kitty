@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вы проиграли...</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="selection-buttons">
+	<div class="scorer"> <h2> Ваш счет: <h2 id="min"> </h2> </h2> </div>
+      <button onclick="startGame()">В меню</button>
+    </div>
+    <script src="js/game.js"></script>
+    <script>
+	  document.getElementById("min").innerHTML = localStorage.getItem("score")
+      function startGame() {
+        window.location.href = "start.html";
+      }
+    </script>
+  </body>
+</html>
